@@ -1,5 +1,5 @@
 body{
-    border: none;
+    margin: 0px;
 }
 ul {
     list-style: none;
@@ -11,6 +11,16 @@ a {
     color: #E5E7EB;
     font-family: Arial;
 }
+button{
+   margin: 0px;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #3882F6; 
+   border-radius: 5px;
+   padding: 8px 16px;
+   color: #ffffff;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -29,6 +39,7 @@ img {
     display: flex;
     height: auto;
     max-width: 400px;
+    max-height: 300px;
     
 }
 .hero {
@@ -36,8 +47,13 @@ img {
     justify-content: center;
     padding-top: 64px;
     gap: 100px;
-    text-align: left;
+    
     background-color: #1f2937;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    
 }
 .text-1 {
     color: #ffffff;
@@ -48,15 +64,14 @@ img {
 .text-2 {
     color: #ffffff;
 }
-button {
+.button-1 {
+   display: flex;
    margin-top: 10px;
-   border: none;
-   background-color: #3882F6;
    color: #ffffff;
-   padding: 7px 20px;
    border-radius: 7%;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 800;
+   
 
 }
 #hero-image {
@@ -86,10 +101,7 @@ button {
     height: 150px;
     text-align: center;
     padding-top: 10px;
-    
-
-
-   
+ 
 }
 .image-lower {
     display: flex;
@@ -97,4 +109,57 @@ button {
     justify-content: center;
     gap: 50px;
     
+}
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 50px;
+    background-color: #E5E7EB;
+
+}
+.quote-1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+    text-align: center;
+    
+}
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 325px;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 40px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+}
+.cta {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+.button-2 {
+   display: flex;  
+   border: 2px solid white;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 5px;
+   
+}
+.footer {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
